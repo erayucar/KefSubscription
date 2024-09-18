@@ -49,8 +49,6 @@
 - [Retrofit](https://square.github.io/retrofit/) A type-safe HTTP client for Android and Kotlin
 
 
-https://github.com/erayucar/Case-Study-for-Exzi/assets/79917113/badce12d-4a62-46b9-8ade-d058e8f54fa5
-
 
 
 
