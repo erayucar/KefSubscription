@@ -18,16 +18,15 @@
     <td>Home Screen</td>
     <td>Detail Screen</td>
     <td>Add Screen</td>
-    <td>Subscriptions Screen</td>
-    <td>Settings Screen</td>
+    <td>Subscription Management Screen</td>
 
    </tr> 
   <tr>
-    <td><img src=""width="100%"></td>
-    <td><img src="" width="100%"></td>
-    <td><img src="" width="100%"></td>
-    <td><img src="" width="100%"></td>
-    <td><img src="" width="100%"></td>
+    <td><img src="https://github.com/erayucar/KefSubscription/blob/main/splash%20screen.png"width="100%"></td>
+    <td><img src="https://github.com/erayucar/KefSubscription/blob/main/Home%20screen.png" width="100%"></td>
+    <td><img src="https://github.com/erayucar/KefSubscription/blob/main/detail%20screen.png" width="100%"></td>
+    <td><img src="https://github.com/erayucar/KefSubscription/blob/main/add%20screen.png" width="100%"></td>
+    <td><img src="https://github.com/erayucar/KefSubscription/blob/main/management%20screen.png" width="100%"></td>
    </tr>  
   </tr>
 </table>
@@ -54,4 +53,4 @@
 
 #### Connect with me
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-6B84BB?style=quare&labelColor=6B84BB&logo=Linkedin&logoColor=white&link=link)](https://https://www.linkedin.com/in/hasanerayucar/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-6B84BB?style=quare&labelColor=6B84BB&logo=Linkedin&logoColor=white&link=link)](https://www.linkedin.com/in/hasanerayucar/) 
