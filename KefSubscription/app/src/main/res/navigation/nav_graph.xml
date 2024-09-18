@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/subscriptionListFragment">
+
+    <fragment
+        android:id="@+id/subscriptionListFragment"
+        android:name="com.erayucar.kefabonelik.ui.home.HomeFragment"
+        android:label="fragment_subscription_list"
+        tools:layout="@layout/fragment_subscription_list" >
+        <action
+            android:id="@+id/action_subscriptionListFragment_to_subscriptionBrandsFragment"
+            app:destination="@id/subscriptionBrandsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.erayucar.kefabonelik.ui.add.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_subscriptionFragment"
+            app:destination="@id/subscriptionFragment" />
+        <argument
+            android:name="brandId"
+            app:argType="integer" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="sourceFragment"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscriptionDetailFragment"
+        android:name="com.erayucar.kefabonelik.ui.detail.SubscriptionDetailFragment"
+        android:label="fragment_subscription_detail"
+        tools:layout="@layout/fragment_subscription_detail" >
+        <argument
+            android:name="subscriptionId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_subscriptionDetailFragment_to_subscriptionFragment"
+            app:destination="@id/subscriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscriptionFragment"
+        android:name="com.erayucar.kefabonelik.ui.subscription.SubscriptionFragment"
+        android:label="fragment_subscription"
+        tools:layout="@layout/fragment_subscription" >
+        <action
+            android:id="@+id/action_subscriptionFragment_to_subscriptionDetailFragment"
+            app:destination="@id/subscriptionDetailFragment" />
+        <action
+            android:id="@+id/action_subscriptionFragment_to_subscriptionBrandsFragment"
+            app:destination="@id/subscriptionBrandsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscriptionBrandsFragment"
+        android:name="com.erayucar.kefabonelik.ui.subscription.SubscriptionBrandsFragment"
+        android:label="fragment_subscription_brands"
+        tools:layout="@layout/fragment_subscription_brands" >
+        <action
+            android:id="@+id/action_subscriptionBrandsFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+</navigation>
